@@ -1,6 +1,7 @@
 name: Build & Release APK
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - 'v*.*.*'  # runs when you push tags like v1.0.0
